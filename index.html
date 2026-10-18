@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Haneul — plataforma de aprendizado de coreano com trilha, exercícios, vídeos, prática de conversação e progresso pessoal."
+    />
+    <title>Haneul | Aprenda coreano para conversar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Haneul início">
+          <span class="brand-mark">하</span>
+          <span>Haneul</span>
+        </a>
+        <nav class="nav" aria-label="Menu principal">
+          <a href="#method">Método</a>
+          <a href="#diagnostico">Diagnóstico</a>
+          <a href="#dashboard">Painel</a>
+          <a href="#haneul-ai">Haneul AI</a>
+          <a href="#trilha">Trilha</a>
+          <a href="#videos">Vídeos</a>
+          <a href="#conversacao">Conversar</a>
+        </nav>
+        <a class="button button-primary" href="#diagnostico">Começar</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Aprender coreano com prática real</p>
+            <h1>Você não precisa apenas conhecer palavras. Precisa conseguir conversar.</h1>
+            <p class="lead">
+              A Haneul desenha uma trilha para você entender frases, repetir com confiança,
+              construir respostas próprias e manter uma conversa com naturalidade.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="#diagnostico">Começar minha jornada</a>
+              <a class="button button-secondary" href="#method">Conhecer o método</a>
+            </div>
+            <ul class="hero-points">
+              <li>Estrutura clara do iniciante ao avançado</li>
+              <li>Exercícios práticos e conversação guiada</li>
+              <li>Progressão com persistência local</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Exemplo de conversa em coreano">
+            <div class="chat-panel">
+              <div class="chat-header">
+                <span class="dot green"></span>
+                <span class="dot yellow"></span>
+                <span class="dot red"></span>
+              </div>
+              <div class="chat-bubble left">
+                <p>안녕하세요! 한국어로 자기소개해 주세요.</p>
+                <span>Olá! Pode se apresentar em coreano?</span>
+              </div>
+              <div class="chat-bubble right">
+                <p>안녕하세요. 제 이름은 마리아예요.</p>
+                <span>Olá. Meu nome é Maria.</span>
+              </div>
+              <div class="chat-bubble left">
+                <p>어디에서 왔어요?</p>
+                <span>De onde você é?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="method" class="section muted-section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Método Haneul</p>
+            <h2>Compreender, imitar, construir e conversar</h2>
+          </div>
+
+          <div class="method-grid">
+            <article class="info-card">
+              <div class="icon">01</div>
+              <h3>Compreender</h3>
+              <p>Você assiste e identifica a estrutura da frase, o contexto e a intenção da fala.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">02</div>
+              <h3>Imitar</h3>
+              <p>Repita com entonação e ritmo, desenvolvendo facilidade na pronúncia e no fluxo.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">03</div>
+              <h3>Construir</h3>
+              <p>Troque palavras, adapte informações e crie frases novas seguindo a mesma lógica.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon">04</div>
+              <h3>Conversar</h3>
+              <p>Pratique situações reais, responda com frases completas e continue o diálogo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Níveis da trilha</p>
+            <h2>Uma jornada progressiva para falar com confiança</h2>
+          </div>
+
+          <div class="levels-grid">
+            <div class="level-card level-0">
+              <span>Nível 0</span>
+              <h3>Recomeçando do jeito certo</h3>
+            </div>
+            <div class="level-card level-1">
+              <span>Nível 1</span>
+              <h3>Primeiras conversas</h3>
+            </div>
+            <div class="level-card level-2">
+              <span>Nível 2</span>
+              <h3>Construindo frases</h3>
+            </div>
+            <div class="level-card level-3">
+              <span>Nível 3</span>
+              <h3>Conversação do dia a dia</h3>
+            </div>
+            <div class="level-card level-4">
+              <span>Nível 4</span>
+              <h3>Coreano natural</h3>
+            </div>
+            <div class="level-card level-5">
+              <span>Nível 5</span>
+              <h3>Conversação avançada</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container dashboard-preview">
+          <div class="dashboard-copy">
+            <p class="eyebrow">Painel do estudante</p>
+            <h2>Seu estudo organizado em um só lugar</h2>
+            <p>
+              Acompanhe aulas concluídas, revise os conteúdos prioritários e retome a última
+              atividade com rapidez.
+            </p>
+          </div>
+          <div class="preview-card">
+            <div class="preview-header">
+              <h3>Bom dia, Maria</h3>
+              <span>Progresso geral 42%</span>
+            </div>
+            <div class="preview-progress">
+              <span style="width: 42%"></span>
+            </div>
+            <div class="mini-grid">
+              <div>
+                <strong>3</strong>
+                <small>dias seguidos</small>
+              </div>
+              <div>
+                <strong>5</strong>
+                <small>aulas concluídas</small>
+              </div>
+              <div>
+                <strong>7</strong>
+                <small>revisões</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Por que a Haneul funciona</p>
+            <h2>Estudar com foco em uso real da língua</h2>
+          </div>
+          <div class="benefits-grid">
+            <article>
+              <h3>Estrutura que evita travamento</h3>
+              <p>Você aprende frases úteis antes de memorizar listas soltas de vocabulário.</p>
+            </article>
+            <article>
+              <h3>Prática de conversação</h3>
+              <p>O método acompanha situações sociais, respostas naturais e continuidade de diálogo.</p>
+            </article>
+            <article>
+              <h3>Progresso visível</h3>
+              <p>É possível marcar aulas, salvar favoritos e retomar de onde parou sem perder o caminho.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-banner">
+        <div class="container cta-inner">
+          <div>
+            <p class="eyebrow">Pronto para começar?</p>
+            <h2>Crie uma rotina de estudo real e dê o primeiro passo para falar coreano com mais segurança.</h2>
+          </div>
+          <a class="button button-primary" href="#diagnostico">Iniciar agora</a>
+        </div>
+      </section>
+
+      <section id="diagnostico" class="section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Teste de nível inicial</p>
+            <h2>Descubra por onde começar</h2>
+          </div>
+          <div class="test-shell">
+            <div id="quiz-app" class="quiz-app" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section muted-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Painel do estudante</p>
+            <h2>Seu centro de estudo</h2>
+          </div>
+          <div id="student-dashboard" class="student-dashboard"></div>
+        </div>
+      </section>
+
+      <section id="haneul-ai" class="section">
+        <div class="container">
+          <div class="section-heading tutor-heading">
+            <div>
+              <p class="eyebrow">Seu professor particular</p>
+              <h2>Haneul AI</h2>
+              <p>Pratique coreano com um tutor que explica em português, adapta o ritmo e incentiva você a construir suas próprias frases.</p>
+            </div>
+            <button id="new-chat" class="button button-secondary" type="button">Nova conversa</button>
+          </div>
+
+          <div class="tutor-settings panel-card">
+            <label>
+              Nível
+              <select id="tutor-level">
+                <option value="auto">Adaptação automática</option>
+                <option value="absolute_beginner">Iniciante absoluto</option>
+                <option value="basic">Básico</option>
+                <option value="intermediate">Intermediário</option>
+                <option value="advanced">Avançado</option>
+              </select>
+            </label>
+            <label>
+              Modo de aprendizagem
+              <select id="tutor-mode">
+                <option value="teacher">Professor</option>
+                <option value="conversation">Conversação</option>
+                <option value="correction">Correção de frases</option>
+                <option value="immersion">Imersão</option>
+                <option value="unlock">Desbloqueio da conversação</option>
+              </select>
+            </label>
+            <label>
+              Situação de conversa
+              <select id="tutor-scenario">
+                <option value="free">Conversa livre</option>
+                <option value="meet">Conhecer uma pessoa</option>
+                <option value="introduce">Apresentar-se</option>
+                <option value="day">Falar sobre o dia</option>
+                <option value="family">Conversar sobre família</option>
+                <option value="food_hobbies">Comida e hobbies</option>
+                <option value="friendship">Fazer amizades</option>
+                <option value="directions">Pedir informações</option>
+                <option value="restaurant">No restaurante</option>
+                <option value="messages">Trocar mensagens</option>
+                <option value="opinions">Experiências e opiniões</option>
+              </select>
+            </label>
+            <button id="start-scenario" class="button button-primary" type="button">Iniciar situação</button>
+          </div>
+
+          <p id="tutor-status" class="tutor-status" role="status" aria-live="polite">Verificando a disponibilidade do tutor… <button id="tutor-retry" class="tutor-retry hidden" type="button">Tentar novamente</button></p>
+
+          <div class="tutor-chat panel-card">
+            <div id="chat-messages" class="chat-messages" role="log" aria-live="polite" aria-relevant="additions text"></div>
+            <div class="prompt-suggestions" aria-label="Sugestões para começar">
+              <button type="button" data-prompt="Explique a diferença entre 은/는 e 이/가 com exemplos simples.">Explique uma partícula</button>
+              <button type="button" data-prompt="Quero praticar como me apresentar em coreano.">Praticar apresentação</button>
+              <button type="button" data-prompt="Corrija esta frase e explique de forma simples: 저는 한국어 공부해요.">Corrigir uma frase</button>
+            </div>
+            <form id="tutor-form" class="tutor-composer">
+              <label class="sr-only" for="tutor-message">Escreva sua mensagem para o Haneul AI</label>
+              <textarea id="tutor-message" rows="2" maxlength="2000" placeholder="Escreva uma dúvida ou responda em coreano…" required></textarea>
+              <button id="send-message" class="button button-primary" type="submit">Enviar</button>
+            </form>
+            <div class="tutor-footnote">
+              <span>Histórico guardado nesta sessão do navegador; “Nova conversa” apaga os dados locais. A Gemini API processa as mensagens; no nível gratuito, o conteúdo pode ser usado para aprimorar produtos. Não envie dados pessoais.</span>
+              <span>Respostas geradas por IA podem precisar de conferência.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trilha" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Trilha de aprendizagem</p>
+            <h2>Seis níveis progressivos</h2>
+          </div>
+          <div id="learning-path" class="learning-path"></div>
+        </div>
+      </section>
+
+      <section id="videos" class="section muted-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Biblioteca de vídeos</p>
+            <h2>Conteúdos oficiais e espaços para novos materiais</h2>
+          </div>
+
+          <div class="video-controls">
+            <div class="filters">
+              <select id="levelFilter">
+                <option value="all">Todos os níveis</option>
+                <option value="0">Nível 0</option>
+                <option value="1">Nível 1</option>
+                <option value="2">Nível 2</option>
+                <option value="3">Nível 3</option>
+                <option value="4">Nível 4</option>
+                <option value="5">Nível 5</option>
+              </select>
+              <select id="categoryFilter">
+                <option value="all">Todos os assuntos</option>
+              </select>
+              <select id="typeFilter">
+                <option value="all">Todos os formatos</option>
+                <option value="video">Vídeo</option>
+                <option value="playlist">Playlist</option>
+                <option value="external">Externo</option>
+                <option value="pending">Em preparação</option>
+              </select>
+            </div>
+            <input id="videoSearch" type="search" placeholder="Pesquisar por título ou tema" aria-label="Pesquisar vídeos" />
+          </div>
+
+          <div id="video-player-wrapper" class="video-player-wrapper"></div>
+          <div id="video-library" class="video-library"></div>
+        </div>
+      </section>
+
+      <section id="conversacao" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Vamos conversar</p>
+            <h2>Simulações rápidas para praticar</h2>
+          </div>
+          <div id="conversation-lab" class="conversation-lab"></div>
+        </div>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container tools-grid">
+          <div class="tool-card">
+            <div class="section-heading left">
+              <p class="eyebrow">Vocabulário inteligente</p>
+              <h2>Flashcards</h2>
+            </div>
+            <div id="flashcards" class="stacked-list"></div>
+          </div>
+
+          <div class="tool-card">
+            <div class="section-heading left">
+              <p class="eyebrow">Exercícios</p>
+              <h2>Pratique o que aprendeu</h2>
+            </div>
+            <div id="quiz-exercises" class="stacked-list"></div>
+          </div>
+
+          <div class="tool-card">
+            <div class="section-heading left">
+              <p class="eyebrow">Caderno de frases</p>
+              <h2>Frases favoritas</h2>
+            </div>
+            <div id="phrase-notebook" class="stacked-list"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <a class="brand" href="#home">
+            <span class="brand-mark">하</span>
+            <span>Haneul</span>
+          </a>
+          <p>Aprender a coreano para falar com naturalidade, compreensão e confiança.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#diagnostico">Diagnóstico</a>
+          <a href="#haneul-ai">Haneul AI</a>
+          <a href="#trilha">Trilha</a>
+          <a href="#videos">Vídeos</a>
+          <a href="#conversacao">Conversar</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="src/app.js"></script>
+    <script type="module" src="src/tutor.js"></script>
+  </body>
+</html>
